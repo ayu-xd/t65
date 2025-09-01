@@ -6,15 +6,15 @@ const WhyChooseUs = () => {
     {
       icon: Clock,
       title: 'Lightning Fast',
-      description: 'Most takedowns completed within 24 hours vs. industry average of 7-14 days.',
-      stat: '24hrs',
+      description: 'Most takedowns completed within 48 hours vs. industry average of 7-14 days.',
+      stat: '48h',
       statLabel: 'Avg Response'
     },
     {
       icon: Scale,
       title: 'Legal Expertise',
       description: 'Former entertainment lawyers and IP specialists handle your cases personally.',
-      stat: '15+',
+      stat: '7+',
       statLabel: 'Years Experience'
     },
     {
@@ -28,7 +28,7 @@ const WhyChooseUs = () => {
       icon: Target,
       title: 'Precision Targeting',
       description: 'AI-powered detection finds even the most obscure piracy networks and private groups.',
-      stat: '99.2%',
+      stat: '94%',
       statLabel: 'Detection Rate'
     }
   ];
