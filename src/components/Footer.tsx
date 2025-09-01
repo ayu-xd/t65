@@ -1,80 +1,39 @@
 import React from 'react';
-import { Shield, Mail, Phone, MapPin } from 'lucide-react';
+import { Shield, Mail, Phone } from 'lucide-react';
 
 const Footer = () => {
   return (
     <footer className="bg-slate-900 text-white py-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid lg:grid-cols-4 gap-8">
+        <div className="grid lg:grid-cols-2 gap-8 items-center">
           {/* Brand */}
-          <div className="lg:col-span-1">
-            <div className="flex items-center space-x-2 mb-4">
-              <Shield className="w-8 h-8 text-red-500" />
-              <span className="text-2xl font-bold">NeverLeaked</span>
+          <div className="text-center lg:text-left">
+            <div className="flex items-center justify-center lg:justify-start space-x-2 mb-4">
+              <Shield className="w-10 h-10 text-red-500" />
+              <span className="text-3xl font-bold">NeverLeaked</span>
             </div>
-            <p className="text-gray-400 leading-relaxed mb-6">
-              The world's most aggressive anti-piracy service for online course creators. 
-              We hunt pirates so you can focus on creating.
+            <p className="text-xl text-gray-300 leading-relaxed mb-6">
+              The world's most aggressive anti-piracy service for online course creators
             </p>
-            <div className="flex space-x-4">
-              <div className="w-10 h-10 bg-blue-600 hover:bg-blue-700 rounded-lg flex items-center justify-center transition-colors cursor-pointer">
-                <span className="text-white font-bold text-sm">f</span>
-              </div>
-              <div className="w-10 h-10 bg-blue-500 hover:bg-blue-600 rounded-lg flex items-center justify-center transition-colors cursor-pointer">
-                <span className="text-white font-bold text-sm">t</span>
-              </div>
-              <div className="w-10 h-10 bg-blue-700 hover:bg-blue-800 rounded-lg flex items-center justify-center transition-colors cursor-pointer">
-                <span className="text-white font-bold text-sm">in</span>
-              </div>
-            </div>
-          </div>
-
-          {/* Services */}
-          <div>
-            <h3 className="text-lg font-semibold mb-4">Services</h3>
-            <ul className="space-y-3 text-gray-400">
-              <li><a href="#" className="hover:text-white transition-colors">DMCA Takedowns</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Telegram Monitoring</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">File-Sharing Removals</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Forum Takedowns</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Legal Consultation</a></li>
-            </ul>
-          </div>
-
-          {/* Company */}
-          <div>
-            <h3 className="text-lg font-semibold mb-4">Company</h3>
-            <ul className="space-y-3 text-gray-400">
-              <li><a href="#" className="hover:text-white transition-colors">About Us</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Case Studies</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Legal Team</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Privacy Policy</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Terms of Service</a></li>
-            </ul>
           </div>
 
           {/* Contact */}
-          <div>
-            <h3 className="text-lg font-semibold mb-4">Contact</h3>
-            <div className="space-y-4 text-gray-400">
-              <div className="flex items-center">
-                <Mail className="w-5 h-5 mr-3 text-red-500" />
-                <span>protect@neverleaked.com</span>
+          <div className="text-center lg:text-right">
+            <div className="space-y-4 mb-6">
+              <div className="flex items-center justify-center lg:justify-end">
+                <Mail className="w-6 h-6 mr-3 text-red-500" />
+                <span className="text-lg font-semibold text-white">protect@neverleaked.com</span>
               </div>
-              <div className="flex items-center">
-                <Phone className="w-5 h-5 mr-3 text-red-500" />
-                <span>1-800-NO-PIRACY</span>
-              </div>
-              <div className="flex items-start">
-                <MapPin className="w-5 h-5 mr-3 text-red-500 mt-1" />
-                <span>San Francisco, CA<br />New York, NY</span>
+              <div className="flex items-center justify-center lg:justify-end">
+                <Phone className="w-6 h-6 mr-3 text-red-500" />
+                <span className="text-lg font-semibold text-white">+1 (831) 263-6018</span>
               </div>
             </div>
 
             {/* Emergency Contact */}
-            <div className="bg-red-600/20 border border-red-500/50 rounded-lg p-4 mt-6">
-              <div className="text-red-300 font-semibold text-sm">Emergency Piracy Hotline</div>
-              <div className="text-white font-bold">Available 24/7</div>
+            <div className="bg-red-600/20 border border-red-500/50 rounded-lg p-6 inline-block">
+              <div className="text-red-300 font-semibold text-lg">Emergency Piracy Hotline</div>
+              <div className="text-white font-bold text-xl">Available 24/7</div>
             </div>
           </div>
         </div>

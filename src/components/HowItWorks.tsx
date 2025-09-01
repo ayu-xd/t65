@@ -73,11 +73,11 @@ const HowItWorks = () => {
         <div className="mt-16 bg-gradient-to-r from-slate-900 to-blue-900 rounded-2xl p-8">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
             <div>
-              <div className="text-3xl font-bold text-white mb-2">24hrs</div>
+              <div className="text-3xl font-bold text-white mb-2">48h</div>
               <div className="text-gray-300">Average Takedown Time</div>
             </div>
             <div>
-              <div className="text-3xl font-bold text-white mb-2">99.2%</div>
+              <div className="text-3xl font-bold text-white mb-2">94%</div>
               <div className="text-gray-300">Success Rate</div>
             </div>
             <div>
